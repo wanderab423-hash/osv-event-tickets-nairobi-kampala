@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Choose Your Destination</title>
+  <style>
+    /* Reset and base layout */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+
+      /* ✅ Responsive background image */
+      background: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1920&q=80') 
+        no-repeat center center fixed;
+      background-size: cover;
+      color: #f1f5f9;
+      text-align: center;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+      border-radius: 16px;
+      padding: 2rem;
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 1.5rem;
+      color: #fff;
+    }
+
+    a {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 14px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      color: white;
+      background-color: #2563eb;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #1d4ed8;
+      transform: scale(1.02);
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      color: #e2e8f0;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.3rem;
+      }
+
+      a {
+        font-size: 1rem;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Welcome to OSVB Africa Tickets</h1>
+
+    <!-- Replace these two links with your real URLs -->
+    <a href="https://oldschoolandvibeeventke.hustlesasa.shop/?product=70205" target="_blank">NAIROBI EVENT</a>
+    <a href="https://mticket.252.co.ug/events/10de9b67-1ebe-4d42-859b-04263c7fc420" target="_blank">KAMPALA EVENT</a>
+
+    <footer>Powered by Old School and Vibe Brunch Africa</footer>
+  </div>
+</body>
+</html>
